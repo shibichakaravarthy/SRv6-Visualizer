@@ -1,0 +1,59 @@
+{
+  "checks": [
+    "Add policy verified",
+    "Edit segment order verified",
+    "Fresh ping snapshot adopts changed policy",
+    "Plain IPv6 ping: 3/3 replies, six observed journeys, no SRv6 encapsulation",
+    "Delete policy verified",
+    "Add local SID verified",
+    "Edit local SID to NEXT-CSID verified",
+    "Delete SID verified",
+    "Add normal IPv6 route verified",
+    "Delete normal IPv6 route verified"
+  ],
+  "ping_run_id": "8aa2930a7dcd4b048afdc6c352e63cbb",
+  "statistics": {
+    "transmitted": 3,
+    "received": 3,
+    "loss_percent": 0.0,
+    "rtt_ms": {
+      "min": 0.136,
+      "avg": 0.212,
+      "max": 0.265
+    }
+  },
+  "journeys": [
+    {
+      "direction": "request",
+      "complete": true,
+      "events": 19
+    },
+    {
+      "direction": "reply",
+      "complete": true,
+      "events": 19
+    },
+    {
+      "direction": "request",
+      "complete": true,
+      "events": 19
+    },
+    {
+      "direction": "reply",
+      "complete": true,
+      "events": 19
+    },
+    {
+      "direction": "request",
+      "complete": true,
+      "events": 19
+    },
+    {
+      "direction": "reply",
+      "complete": true,
+      "events": 19
+    }
+  ],
+  "test_table": 42420,
+  "temporary_routes_removed": true
+}

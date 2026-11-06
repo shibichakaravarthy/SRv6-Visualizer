@@ -1,0 +1,128 @@
+{
+  "run_id": "179636cc431d46a2b6e430fc5c2af7ea",
+  "started_at": "2026-11-06T10:57:25.264633+00:00",
+  "collection_id": "d057839bbdbd47e38bdf85ef2f1cafd8",
+  "devices": 21,
+  "verified_links": 32,
+  "statistics": {
+    "transmitted": 3,
+    "received": 3,
+    "loss_percent": 0.0,
+    "rtt_ms": {
+      "min": 0.147,
+      "avg": 0.187,
+      "max": 0.264
+    }
+  },
+  "errors": [],
+  "journeys": [
+    {
+      "packet_id": "request-4-1",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "client1",
+        "sw1",
+        "ce1",
+        "edge1",
+        "R1",
+        "R7",
+        "R8",
+        "edge4",
+        "ce2",
+        "sw2",
+        "webserver"
+      ]
+    },
+    {
+      "packet_id": "reply-4-1",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "webserver",
+        "sw2",
+        "ce2",
+        "edge4",
+        "R6",
+        "R7",
+        "R4",
+        "edge1",
+        "ce1",
+        "sw1",
+        "client1"
+      ]
+    },
+    {
+      "packet_id": "request-4-2",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "client1",
+        "sw1",
+        "ce1",
+        "edge1",
+        "R1",
+        "R7",
+        "R8",
+        "edge4",
+        "ce2",
+        "sw2",
+        "webserver"
+      ]
+    },
+    {
+      "packet_id": "reply-4-2",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "webserver",
+        "sw2",
+        "ce2",
+        "edge4",
+        "R6",
+        "R7",
+        "R4",
+        "edge1",
+        "ce1",
+        "sw1",
+        "client1"
+      ]
+    },
+    {
+      "packet_id": "request-4-3",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "client1",
+        "sw1",
+        "ce1",
+        "edge1",
+        "R1",
+        "R7",
+        "R8",
+        "edge4",
+        "ce2",
+        "sw2",
+        "webserver"
+      ]
+    },
+    {
+      "packet_id": "reply-4-3",
+      "complete": true,
+      "events": 19,
+      "path": [
+        "webserver",
+        "sw2",
+        "ce2",
+        "edge4",
+        "R6",
+        "R7",
+        "R4",
+        "edge1",
+        "ce1",
+        "sw1",
+        "client1"
+      ]
+    }
+  ]
+}
